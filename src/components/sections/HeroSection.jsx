@@ -1,4 +1,5 @@
 import { siteConfig } from '../../data/config'
+import AnimatedCounter from '../ui/AnimatedCounter'
 
 export default function HeroSection({ content = siteConfig.hero }) {
   return (
@@ -28,18 +29,21 @@ export default function HeroSection({ content = siteConfig.hero }) {
           ))}
         </div>
 
-        <dl className="mt-16 pt-8 border-t border-slate-200 grid grid-cols-3 gap-6">
-          {content.metrics.map((metric) => (
-            <div key={metric.label}>
-              <dt className="text-4xl font-serif text-slate-900">
-                {metric.value}
-              </dt>
-              <dd className="text-xs font-semibold text-slate-500 uppercase tracking-widest mt-2">
+                {/* Contenedor de métricas existente */}
+        <div className="mt-16 pt-8 border-t border-slate-200 grid grid-cols-3 gap-6">
+          {content.metrics.map((metric, index) => (
+            <div key={index}>
+              {/* Nuevo contador animado */}
+              <AnimatedCounter 
+                value={metric.value} 
+                className="text-4xl font-serif text-slate-900" 
+              />
+              <div className="text-xs font-semibold text-slate-500 uppercase tracking-widest mt-2">
                 {metric.label}
-              </dd>
+              </div>
             </div>
           ))}
-        </dl>
+        </div>
       </div>
 
       <figure className="relative h-96 lg:h-full w-full hidden lg:block">
