@@ -3,6 +3,7 @@ import HeroSection from './components/sections/HeroSection'
 import PracticeAreas from './components/sections/PracticeAreas'
 import TeamSection from './components/sections/TeamSection'
 import SuccessCases from './components/sections/SuccessCases'
+import ContactSection from './components/sections/ContactSection'
 import Footer from './components/sections/Footer'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <PracticeAreas />
         <TeamSection />
         <SuccessCases />
+        <ContactSection />
       </main>
       <Footer />
     </div>

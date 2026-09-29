@@ -1,7 +1,7 @@
 export const siteConfig = {
   brand: {
     name: 'lex.',
-    slogan: 'FIRMA LEGAL CORPORATIVA · LECHERÍA, VENEZUELA',
+    slogan: 'FIRMA LEGAL CORPORATIVA · MADRID, ESPAÑA',
   },
   hero: {
     heading: 'Claridad legal para decisiones complejas.',
@@ -19,7 +19,7 @@ export const siteConfig = {
       url: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=85&w=1200',
       alt: 'Sala de juntas corporativa',
       badge: 'Derecho Corporativo',
-      caption: 'Sede Principal · Lechería',
+      caption: 'Paseo de la Castellana · Madrid',
       price: '' 
     }
   },
@@ -123,9 +123,19 @@ export const siteConfig = {
     { label: 'Contacto', href: '#contacto' },
   ],
   contact: {
+    copy: {
+      eyebrow: 'CONTACTO',
+      heading: 'Agende una Consulta Privada',
+      description: 'Nuestro equipo está a su disposición para evaluar su caso con la estricta confidencialidad que requiere el ámbito corporativo europeo e internacional.'
+    },
+    info: {
+      address: 'Paseo de la Castellana 89, Planta 15. 28046 Madrid, España.',
+      phone: '+34 91 555 0199',
+      email: 'madrid@lex-corporate.com'
+    },
     socialLinks: [
       { name: 'LinkedIn', icon: 'LinkedIn', href: 'https://linkedin.com' },
-      { name: 'Twitter', icon: 'Facebook', href: 'https://twitter.com' },
+      { name: 'Facebook', icon: 'Facebook', href: 'https://facebook.com' },
     ]
   },
   footer: {
