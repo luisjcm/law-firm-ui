@@ -56,6 +56,36 @@ export const siteConfig = {
       }
     ]
   },
+  team: {
+    copy: {
+      eyebrow: 'NUESTRO EQUIPO',
+      heading: 'Socios Fundadores',
+      description: 'Juristas de primer nivel con décadas de experiencia combinada en litigios complejos y estructuración corporativa.'
+    },
+    members: [
+      {
+        id: 1,
+        name: 'Arturo Mendoza',
+        role: 'Socio Principal - Litigios',
+        image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=85&w=800',
+        bio: 'Especialista en derecho penal corporativo y defensa patrimonial.'
+      },
+      {
+        id: 2,
+        name: 'Elena Rostova',
+        role: 'Socia - Fusiones y Adquisiciones',
+        image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=85&w=800',
+        bio: 'Líder del área de derecho internacional y contratos transfronterizos.'
+      },
+      {
+        id: 3,
+        name: 'Carlos Villalobos',
+        role: 'Socio - Propiedad Intelectual',
+        image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=85&w=800',
+        bio: 'Experto en registro de patentes y protección de activos intangibles.'
+      }
+    ]
+  },
   navigation: [
     { label: 'Áreas de Práctica', href: '#servicios' },
     { label: 'El Equipo', href: '#equipo' },

@@ -1,6 +1,7 @@
 import Header from './layouts/Header'
 import HeroSection from './components/sections/HeroSection'
 import PracticeAreas from './components/sections/PracticeAreas'
+import TeamSection from './components/sections/TeamSection'
 import Footer from './components/sections/Footer'
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <main>
         <HeroSection />
         <PracticeAreas />
+        <TeamSection />
       </main>
       <Footer />
     </div>
