@@ -11,7 +11,7 @@ export default function Contact() {
   const form = contactSection.form
 
   return (
-    <section id="contacto" className="bg-[#fbfbf8] text-[#20332b]">
+    <section id="contacto" className="bg-[#fbfbf8] text-[#0f172a]">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-20 lg:px-12 lg:py-24">
         <div>
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-[#607a5d] sm:text-sm">
@@ -23,7 +23,7 @@ export default function Contact() {
               {contactSection.titleAccent}
             </span>
           </h2>
-          <p className="mt-5 max-w-lg text-base leading-7 text-[#20332b]/65">
+          <p className="mt-5 max-w-lg text-base leading-7 text-[#0f172a]/65">
             {contactSection.description}
           </p>
 
@@ -36,7 +36,7 @@ export default function Contact() {
               <Phone aria-hidden="true" className="mt-0.5 shrink-0 text-[#718969]" size={19} strokeWidth={1.7} />
               {contact.phone}
             </a>
-            <p className="flex items-start gap-4 text-sm leading-6 text-[#20332b]/75">
+            <p className="flex items-start gap-4 text-sm leading-6 text-[#0f172a]/75">
               <MapPin aria-hidden="true" className="mt-0.5 shrink-0 text-[#718969]" size={19} strokeWidth={1.7} />
               {contact.address}
             </p>
@@ -55,7 +55,7 @@ export default function Contact() {
             </label>
             <input
               autoComplete="name"
-              className="min-h-12 w-full border border-[#20332b]/15 bg-white px-4 text-base outline-none transition-colors placeholder:text-[#20332b]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
+              className="min-h-12 w-full border border-[#0f172a]/15 bg-white px-4 text-base outline-none transition-colors placeholder:text-[#0f172a]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
               id="contact-name"
               name="Nombre"
               placeholder={form.namePlaceholder}
@@ -69,7 +69,7 @@ export default function Contact() {
             </label>
             <input
               autoComplete="email"
-              className="min-h-12 w-full border border-[#20332b]/15 bg-white px-4 text-base outline-none transition-colors placeholder:text-[#20332b]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
+              className="min-h-12 w-full border border-[#0f172a]/15 bg-white px-4 text-base outline-none transition-colors placeholder:text-[#0f172a]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
               id="contact-email"
               name="Correo electrónico"
               placeholder={form.emailPlaceholder}
@@ -83,7 +83,7 @@ export default function Contact() {
               {form.messageLabel}
             </label>
             <textarea
-              className="min-h-36 w-full resize-y border border-[#20332b]/15 bg-white px-4 py-3 text-base outline-none transition-colors placeholder:text-[#20332b]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
+              className="min-h-36 w-full resize-y border border-[#0f172a]/15 bg-white px-4 py-3 text-base outline-none transition-colors placeholder:text-[#0f172a]/35 focus:border-[#718969] focus:ring-1 focus:ring-[#718969]"
               id="contact-message"
               name="Mensaje"
               placeholder={form.messagePlaceholder}

@@ -1,19 +1,17 @@
+import Header from './layouts/Header'
 import HeroSection from './components/sections/HeroSection'
-import FeaturedProperties from './components/sections/FeaturedProperties'
-import Services from './components/sections/Services'
-import Contact from './components/sections/Contact'
+import PracticeAreas from './components/sections/PracticeAreas'
 import Footer from './components/sections/Footer'
 
-function App() {
+export default function App() {
   return (
-    <>
-      <HeroSection />
-      <FeaturedProperties />
-      <Services />
-      <Contact />
+    <div className="bg-slate-50 text-slate-900 pt-15"> {/* pt-15 evita que el Header fijo tape el Hero */}
+      <Header />
+      <main>
+        <HeroSection />
+        <PracticeAreas />
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
-
-export default App

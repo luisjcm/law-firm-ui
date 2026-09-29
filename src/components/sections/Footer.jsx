@@ -15,7 +15,7 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="bg-[#20332b] text-white">
+    <footer className="bg-[#0f172a] text-white">
       <div className="mx-auto max-w-7xl px-5 py-12 sm:px-8 lg:px-12">
         
         {/* Contenedor Principal: 2 columnas en móvil, 4 en desktop */}

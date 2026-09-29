@@ -2,7 +2,7 @@ const variants = {
   primary:
     'bg-[#263f35] text-white hover:bg-[#1b3028] focus-visible:outline-[#263f35]',
   light:
-    'bg-[#d5dfcf] text-[#20332b] hover:bg-white focus-visible:outline-white',
+    'bg-[#d5dfcf] text-[#0f172a] hover:bg-white focus-visible:outline-white',
 }
 
 /**

@@ -5,7 +5,7 @@
  */
 export default function Card({ property, labels }) {
   return (
-    <article className="overflow-hidden border border-[#20332b]/10 bg-white">
+    <article className="overflow-hidden border border-[#0f172a]/10 bg-white">
       <div className="aspect-[4/3] overflow-hidden bg-[#e7eee5]">
         <img
           alt={property.imageAlt}
@@ -20,26 +20,26 @@ export default function Card({ property, labels }) {
       <div className="p-5 sm:p-6">
         <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
           <div>
-            <h3 className="font-serif text-2xl leading-tight text-[#20332b]">
+            <h3 className="font-serif text-2xl leading-tight text-[#0f172a]">
               {property.title}
             </h3>
-            <p className="mt-2 text-sm text-[#20332b]/60">{property.location}</p>
+            <p className="mt-2 text-sm text-[#0f172a]/60">{property.location}</p>
           </div>
           <p className="text-sm font-semibold text-[#263f35] sm:text-base">{property.price}</p>
         </div>
 
-        <dl className="mt-5 grid grid-cols-3 border-t border-[#20332b]/10 pt-4">
+        <dl className="mt-5 grid grid-cols-3 border-t border-[#0f172a]/10 pt-4">
           <div>
-            <dt className="text-xs text-[#20332b]/55">{labels.bedrooms}</dt>
-            <dd className="mt-1 text-sm font-semibold text-[#20332b]">{property.bedrooms}</dd>
+            <dt className="text-xs text-[#0f172a]/55">{labels.bedrooms}</dt>
+            <dd className="mt-1 text-sm font-semibold text-[#0f172a]">{property.bedrooms}</dd>
           </div>
           <div>
-            <dt className="text-xs text-[#20332b]/55">{labels.bathrooms}</dt>
-            <dd className="mt-1 text-sm font-semibold text-[#20332b]">{property.bathrooms}</dd>
+            <dt className="text-xs text-[#0f172a]/55">{labels.bathrooms}</dt>
+            <dd className="mt-1 text-sm font-semibold text-[#0f172a]">{property.bathrooms}</dd>
           </div>
           <div>
-            <dt className="text-xs text-[#20332b]/55">{labels.area}</dt>
-            <dd className="mt-1 text-sm font-semibold text-[#20332b]">{property.area}</dd>
+            <dt className="text-xs text-[#0f172a]/55">{labels.area}</dt>
+            <dd className="mt-1 text-sm font-semibold text-[#0f172a]">{property.area}</dd>
           </div>
         </dl>
       </div>

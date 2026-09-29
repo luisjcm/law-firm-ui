@@ -12,7 +12,7 @@ export default function FeaturedProperties({
   const copy = siteConfig.featuredPropertiesSection
 
   return (
-    <section id="propiedades" className="bg-[#fbfbf8] text-[#20332b]">
+    <section id="propiedades" className="bg-[#fbfbf8] text-[#0f172a]">
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
         <div className="mb-9 max-w-2xl sm:mb-12">
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-[#607a5d] sm:text-sm">
@@ -22,7 +22,7 @@ export default function FeaturedProperties({
             {copy.title}{' '}
             <span className="font-serif italic text-[#718969]">{copy.titleAccent}</span>
           </h2>
-          <p className="mt-4 max-w-xl text-base leading-7 text-[#20332b]/65">
+          <p className="mt-4 max-w-xl text-base leading-7 text-[#0f172a]/65">
             {copy.description}
           </p>
         </div>
