@@ -2,6 +2,7 @@ import Header from './layouts/Header'
 import HeroSection from './components/sections/HeroSection'
 import PracticeAreas from './components/sections/PracticeAreas'
 import TeamSection from './components/sections/TeamSection'
+import SuccessCases from './components/sections/SuccessCases'
 import Footer from './components/sections/Footer'
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <HeroSection />
         <PracticeAreas />
         <TeamSection />
+        <SuccessCases />
       </main>
       <Footer />
     </div>

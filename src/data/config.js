@@ -86,6 +86,36 @@ export const siteConfig = {
       }
     ]
   },
+  successCases: {
+    copy: {
+      eyebrow: 'CASOS DE ÉXITO',
+      heading: 'Resultados que Hablan por Sí Solos',
+      description: 'Un historial comprobado de victorias estratégicas y transacciones históricas en los sectores más exigentes.'
+    },
+    cases: [
+      {
+        id: 1,
+        title: 'Fusión Transfronteriza',
+        sector: 'Sector Energético',
+        metric: '$500M+',
+        description: 'Asesoría integral en la adquisición de activos energéticos, sorteando complejos obstáculos regulatorios internacionales.'
+      },
+      {
+        id: 2,
+        title: 'Defensa Antimonopolio',
+        sector: 'Tecnología',
+        metric: 'Absolución Total',
+        description: 'Representación exitosa ante tribunales mercantiles, desestimando acusaciones de prácticas anticompetitivas.'
+      },
+      {
+        id: 3,
+        title: 'Reestructuración Patrimonial',
+        sector: 'Grupo Familiar',
+        metric: 'Protección Total',
+        description: 'Diseño y ejecución de estructuras fiduciarias complejas para asegurar la transición generacional de activos empresariales.'
+      }
+    ]
+  },
   navigation: [
     { label: 'Áreas de Práctica', href: '#servicios' },
     { label: 'El Equipo', href: '#equipo' },
